@@ -1,0 +1,120 @@
+Разходи за труд по икономически сектори (детайлно представяне) - 2008 и 2012
+
+Източник:			Евростат
+Периодизация:			Годишни данни
+Адрес:				http://ec.europa.eu/eurostat
+Динамичен ред:			lc_n08cost_r1
+Последен достъп:		27.08.2015 г.
+Пълно наименование:		Labour cost, wages and salaries, direct remuneration (excluding apprentices) - NACE Rev. 2 [lc_ncost_r2]
+
+Обработка на данните:		R, виж "razhodi-trud-nacionalni-godishni-sektori-detajlni-eurostat-lc_n08cost_r1-2008.R"
+
+Променливи: 
+
+	
+	currency:
+
+	EUR	Euro
+	PPS	Purchasing Power Standard
+	NAC	National currency
+	
+	unit:
+
+	P_SAL_Y	Per employee in full-time equivalents, per year
+	P_SAL_M	Per employee in full-time equivalents, per month
+	P_SAL_H	Per employee in full-time equivalents, per hour
+	TOTAL	Total
+
+	sizeclass:
+
+	GE10	10 employees or more
+
+	lcstrust:
+
+	D01	Total labour costs (excluding apprentices)
+	D02	Total labour costs for apprentices
+	D111	Wages and salaries (excluding apprentices)
+	D1111	Direct remuneration, bonuses and allowances
+	D112	Wages and salaries of apprentices
+				
+	nace_r1:
+
+	
+	C-O	All NACE activities (except agriculture; fishing; activities of households and extra-territorial organizations)
+	C-O_X_L	All NACE activities (except agriculture; fishing; public administration; activities of households and extra-territorial organizations)
+	C-K	Industry and services (except public administration and community services; activities of households and extra-territorial organizations)
+	C-F	Industry
+	C-E	Industry (except construction)
+	C	Mining and quarrying
+	CA10	Mining of coal and lignite; extraction of peat
+	CA11	Extraction of crude petroleum and natural gas; service activities incidental to oil and gas extraction, excluding surveying
+	CB13	Mining of metal ores
+	CB14	Other mining and quarrying
+	D	Manufacturing
+	DA15	Manufacture of food products and beverages
+	DA16	Manufacture of tobacco products
+	DB17	Manufacture of textiles
+	DB18	Manufacture of wearing apparel; dressing; dyeing of fur
+	DC19	Tanning and dressing of leather; manufacture of luggage, handbags, saddlery, harness and footwear
+	DD20	Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials
+	DE21	Manufacture of pulp, paper and paper products
+	DE22	Publishing, printing and reproduction of recorded media
+	DF23	Manufacture of coke, refined petroleum products and nuclear fuel
+	DG24	Manufacture of chemicals and chemical products
+	DH25	Manufacture of rubber and plastic products
+	DI26	Manufacture of other non-metallic mineral products
+	DJ27	Manufacture of basic metals
+	DJ28	Manufacture of fabricated metal products, except machinery and equipment
+	DK29	Manufacture of machinery and equipment n.e.c.
+	DL30	Manufacture of office machinery and computers
+	DL31	Manufacture of electrical machinery and apparatus n.e.c.
+	DL32	Manufacture of radio, television and communication equipment and apparatus
+	DL33	Manufacture of medical, precision and optical instruments, watches and clocks
+	DM34	Manufacture of motor vehicles, trailers and semi-trailers
+	DM35	Manufacture of other transport equipment
+	DN36	Manufacture of furniture; manufacturing n.e.c.
+	DN37	Recycling
+	E	Electricity, gas and water supply
+	E40	Electricity, gas, steam and hot water supply
+	E41	Collection, purification and distribution of water
+	F	Construction
+	F45	Construction
+	G-O_X_L	Services (except public administration; activities of households and extra-territorial organizations)
+	G-K	Services (except public administration and community services; activities of households and extra-territorial organizations)
+	G-I	Wholesale and retail trade; hotels and restaurants; transport
+	G	Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods
+	G50	Sale, maintenance and repair of motor vehicles and motorcycles; retail sale of automotive fuel
+	G51	Wholesale trade and commission trade, except of motor vehicles and motorcycles
+	G52	Retail trade, except of motor vehicles and motorcycles; repair of personal and household goods
+	H	Hotels and restaurants
+	H55	Hotels and restaurants
+	I	Transport, storage and communication
+	I60	Land transport; transport via pipelines
+	I61	Water transport
+	I62	Air transport
+	I63	Supporting and auxiliary transport activities; activities of travel agencies
+	I64	Post and telecommunications
+	J_K	Financial intermediation; real estate
+	J	Financial intermediation
+	J65	Financial intermediation, except insurance and pension funding
+	J66	Insurance and pension funding, except compulsory social security
+	J67	Activities auxiliary to financial intermediation
+	K	Real estate, renting and business activities
+	K70	Real estate activities
+	K71	Renting of machinery and equipment without operator and of personal and household goods
+	K72	Computer and related activities
+	K73	Research and development
+	K74	Other business activities
+	L-O	Public administration and community services
+	L	Public administration and defence; compulsory social security
+	L75	Public administration and defence; compulsory social security
+	M-O	Education; Health; Other service activities
+	M	Education
+	M80	Education
+	N	Health and social work
+	N85	Health and social work
+	O	Other community, social and personal service activities
+	O90	Sewage and refuse disposal, sanitation and similar activities
+	O91	Activities of membership organization n.e.c.
+	O92	Recreational, cultural and sporting activities
+	O93	Other service activities

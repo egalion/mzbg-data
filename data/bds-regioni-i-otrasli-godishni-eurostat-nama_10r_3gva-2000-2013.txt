@@ -1,0 +1,71 @@
+Брутна добавена стойност по региони и икономически сектори - 2000-2013
+
+Източник:			Евростат
+Периодизация:			Годишни данни
+Адрес:				http://ec.europa.eu/eurostat
+Динамичен ред:			nama_10r_3gva
+Последен достъп:		26.08.2015 г.
+Пълно наименование:		Gross value added at basic prices by NUTS 3 regions [nama_10r_3gva]	
+Обработка на данните:		R, виж "bds-regioni-i-otrasl-godishni-eurostat-nama_10r_3gva-2000-2013.R"
+Променливи: 
+
+	
+	currency:		
+				MIO_EUR	Million euro
+				MIO_NAC	Million units of national currency		
+					
+	nace_r2:
+				TOTAL	Total - All NACE activities
+				A	Agriculture, forestry and fishing
+				B-E	Industry (except construction)
+				C	Manufacturing
+				F	Construction
+				G-J	Wholesale and retail trade; transport; accommodation and food service activities; information and communication
+				G-I	Wholesale and retail trade, transport, accomodation and food service activities
+				J	Information and communication
+				K-N	Financial and insurance activities; real estate activities; professional, scientific and technical activities; administrative and support service a...
+				K	Financial and insurance activities
+				L	Real estate activities
+				M_N	Professional, scientific and technical activities; administrative and support service activities
+				O-U	Public administration and defence; compulsory social security; education; human health and social work activities; arts, entertainment and recreati...
+				O-Q	Public administration, defence, education, human health and social work activities
+				R-U	Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies
+					
+	geo:
+				BG	Bulgaria
+				BG3	Severna i yugoiztochna Bulgaria
+				BG31	Severozapaden
+				BG311	Vidin
+				BG312	Montana
+				BG313	Vratsa
+				BG314	Pleven
+				BG315	Lovech
+				BG32	Severen tsentralen
+				BG321	Veliko Tarnovo
+				BG322	Gabrovo
+				BG323	Ruse
+				BG324	Razgrad
+				BG325	Silistra
+				BG33	Severoiztochen
+				BG331	Varna
+				BG332	Dobrich
+				BG333	Shumen
+				BG334	Targovishte
+				BG34	Yugoiztochen
+				BG341	Burgas
+				BG342	Sliven
+				BG343	Yambol
+				BG344	Stara Zagora
+				BG4	Yugozapadna i yuzhna tsentralna Bulgaria
+				BG41	Yugozapaden
+				BG411	Sofia (stolitsa)
+				BG412	Sofia
+				BG413	Blagoevgrad
+				BG414	Pernik
+				BG415	Kyustendil
+				BG42	Yuzhen tsentralen
+				BG421	Plovdiv
+				BG422	Haskovo
+				BG423	Pazardzhik
+				BG424	Smolyan
+				BG425	Kardzhali

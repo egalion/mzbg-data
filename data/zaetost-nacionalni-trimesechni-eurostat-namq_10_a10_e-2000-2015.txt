@@ -1,0 +1,59 @@
+Заетост по икономически сектори на национално ниво - 2000-2015
+
+Източник:			Евростат
+Периодизация:			Тримесечни данни
+Адрес:				http://ec.europa.eu/eurostat
+Динамичен ред:			namq_10_a10_e
+Последен достъп:		26.08.2015 г.
+Пълно наименование:		Employment A*10 industry breakdowns [namq_10_a10_e]
+Обработка на данните:		R, виж "zaetost-nacionalni-trimesechni-eurostat-namq_10_a10-2000-2015.R"
+Променливи: 
+
+	
+	unit:		
+
+	
+	PC_TOT_PER	Percentage of total (based on persons)
+	PC_TOT_HW	Percentage of total (based on hours worked)
+	PC_TOT_JOB	Percentage of total (based on jobs)
+	I10_PER	Index, 2010=100 (based on persons)
+	I10_HW	Index, 2010=100 (based on hours worked)
+	I10_JOB	Index, 2010=100 (based on jobs)
+	PCH_PRE_PER	Percentage change over previous period (based on persons)
+	PCH_PRE_HW	Percentage change over previous period (based on hours worked)
+	PCH_SM_PER	Percentage change compared to same period in previous year (based on persons)
+	PCH_SM_HW	Percentage change compared to same period in previous year (based on hours worked)
+	PCH_SM_JOB	Percentage change compared to same period in previous year (based on jobs)
+	PCH_PRE_JOB	Percentage change over previous period (based on jobs)
+	THS_HW	Thousand hours worked
+	THS_JOB	Thousand jobs
+	THS_PER	Thousand persons
+
+	nace_r2:
+
+
+	TOTAL	Total - All NACE activities
+	A	Agriculture, forestry and fishing
+	B-E	Industry (except construction)
+	C	Manufacturing
+	F	Construction
+	G-I	Wholesale and retail trade, transport, accomodation and food service activities
+	J	Information and communication
+	K	Financial and insurance activities
+	L	Real estate activities
+	M_N	Professional, scientific and technical activities; administrative and support service activities
+	O-Q	Public administration, defence, education, human health and social work activities
+	R-U	Arts, entertainment and recreation; other service activities; activities of household and extra-territorial organizations and bodies
+					
+	s_adj:
+	
+	NSA	Not seasonally adjusted data
+	SA	Seasonally adjusted data
+	WDA	Data adjusted by working days
+	SWDA	Seasonally adjusted and adjusted data by working days
+
+	na_item:
+
+	EMP_DC	Total employment domestic concept
+	SAL_DC	Employees domestic concept
+	SELF_DC	Self-employed domestic concept

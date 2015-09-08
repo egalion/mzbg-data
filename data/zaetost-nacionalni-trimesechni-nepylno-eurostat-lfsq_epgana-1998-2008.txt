@@ -1,0 +1,55 @@
+Заетост на не пълно работно време по икономически сектори на национално ниво - 1998 - 2008
+
+Източник:			Евростат
+Периодизация:			Тримесечни данни
+Адрес:				http://ec.europa.eu/eurostat
+Динамичен ред:			lfsq_epgana
+Последен достъп:		27.08.2015 г.
+Пълно наименование:		Full-time and part-time employment by sex and economic activity (1998-2008, NACE Rev. 1.1) - 1 000 [lfsq_epgana]
+Обработка на данните:		R, виж "zaetost-nacionalni-trimesechni-nepylno-eurostat-lfsq_epgana-1998-2008.R"
+Променливи: 
+
+	unit:
+
+	THS	Thousand
+
+	sex:
+
+	T	Total
+	M	Males
+	F	Females
+
+	nace_r1:
+
+	TOTAL	Total - all NACE activities
+	A_B	Agriculture; fishing
+	A	Agriculture, hunting and forestry
+	B	Fishing
+	C-K	Industry and services (except public administration and community services; activities of households and extra-territorial organizations)
+	C-F	Industry
+	C	Mining and quarrying
+	D	Manufacturing
+	E	Electricity, gas and water supply
+	F	Construction
+	G-Q	Services
+	G-K	Services (except public administration and community services; activities of households and extra-territorial organizations)
+	G	Wholesale and retail trade; repair of motor vehicles, motorcycles and personal and household goods
+	H	Hotels and restaurants
+	I	Transport, storage and communication
+	J	Financial intermediation
+	K	Real estate, renting and business activities
+	L	Public administration and defence; compulsory social security
+	M-Q	Education; health; other service activities; activities of households; extra-territorial organizations
+	M	Education
+	N	Health and social work
+	O	Other community, social and personal service activities
+	P	Activities of households
+	Q	Extra-territorial organizations and bodies
+	NRP	No response
+
+	worktime:
+
+	TOTAL	Total
+	PT	Part-time
+	FT	Full-time
+	NRP	No response
